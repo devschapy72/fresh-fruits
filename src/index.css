@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .active-nav.active {
+    @apply text-orange-500;
+    @apply underline;
+  }
+  Button {
+    @apply text-white;
+  }
+}
